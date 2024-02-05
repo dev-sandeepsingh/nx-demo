@@ -1468,3 +1468,55 @@
 [NX Daemon Server] - 2024-02-05T16:09:02.136Z - [WATCHER]: Stopping the watcher for /home/sandeepsingh/sandeep/project/nx-demo (sources)
 [NX Daemon Server] - 2024-02-05T16:09:02.136Z - [WATCHER]: Stopping the watcher for /home/sandeepsingh/sandeep/project/nx-demo (outputs)
 [NX Daemon Server] - 2024-02-05T16:09:02.136Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-02-05T16:14:19.736Z - Started listening on: /tmp/c2c82958321265708a87/d.sock
+[NX Daemon Server] - 2024-02-05T16:14:19.736Z - [WATCHER]: Subscribed to changes within: /home/sandeepsingh/sandeep/project/nx-demo (native)
+[NX Daemon Server] - 2024-02-05T16:14:19.739Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-05T16:14:19.739Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-05T16:14:19.740Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-05T16:14:19.741Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-05T16:14:19.741Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-05T16:14:19.741Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-05T16:14:19.819Z - Time taken for 'hash changed files from watcher' 0.37230000272393227ms
+[NX Daemon Server] - 2024-02-05T16:14:19.819Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-05T16:14:20.232Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-05T16:14:20.233Z - Time taken for 'total for creating and serializing project graph' 491.91726199910045ms
+[NX Daemon Server] - 2024-02-05T16:14:20.234Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-05T16:14:20.234Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 492. Response time: 2.
+[NX Daemon Server] - 2024-02-05T16:14:20.236Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-02-05T16:14:20.236Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-02-05T16:14:20.236Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-05T16:14:20.236Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-02-05T16:17:03.063Z - [WATCHER]: lambda-echo-query-params/src/lambda.ts was modified
+[NX Daemon Server] - 2024-02-05T16:17:03.063Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-05T16:17:03.164Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-05T16:17:03.164Z - [REQUEST]: lambda-echo-query-params/src/lambda.ts
+[NX Daemon Server] - 2024-02-05T16:17:03.165Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-05T16:17:03.194Z - Time taken for 'hash changed files from watcher' 0.2360610030591488ms
+[NX Daemon Server] - 2024-02-05T16:18:56.672Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-02-05T16:18:56.673Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-05T16:18:56.763Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-05T16:18:56.763Z - [WATCHER]: Stopping the watcher for /home/sandeepsingh/sandeep/project/nx-demo (sources)
+[NX Daemon Server] - 2024-02-05T16:18:56.763Z - [WATCHER]: Stopping the watcher for /home/sandeepsingh/sandeep/project/nx-demo (outputs)
+[NX Daemon Server] - 2024-02-05T16:18:56.763Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-02-05T16:18:57.926Z - Started listening on: /tmp/c2c82958321265708a87/d.sock
+[NX Daemon Server] - 2024-02-05T16:18:57.927Z - [WATCHER]: Subscribed to changes within: /home/sandeepsingh/sandeep/project/nx-demo (native)
+[NX Daemon Server] - 2024-02-05T16:18:57.930Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-05T16:18:57.931Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-05T16:18:57.932Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-05T16:18:57.933Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-05T16:18:57.933Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-05T16:18:57.933Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-05T16:18:58.140Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-05T16:18:58.142Z - Time taken for 'total for creating and serializing project graph' 207.94921400025487ms
+[NX Daemon Server] - 2024-02-05T16:18:58.142Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-05T16:18:58.142Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-05T16:18:58.142Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 208. Response time: 2.
+[NX Daemon Server] - 2024-02-05T16:18:58.149Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-02-05T16:18:58.149Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-02-05T16:18:58.149Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-05T16:18:58.165Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-02-05T16:19:10.115Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-02-05T16:19:10.115Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-05T16:19:10.116Z - [WATCHER]: Stopping the watcher for /home/sandeepsingh/sandeep/project/nx-demo (sources)
+[NX Daemon Server] - 2024-02-05T16:19:10.116Z - [WATCHER]: Stopping the watcher for /home/sandeepsingh/sandeep/project/nx-demo (outputs)
+[NX Daemon Server] - 2024-02-05T16:19:10.116Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
