@@ -1,0 +1,44 @@
+{
+  "3198148277280048218": {
+    "test": {
+      "command": "jest",
+      "options": {
+        "cwd": "lambda-echo-query-params"
+      },
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "jest"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/coverage/lambda-echo-query-params"
+      ]
+    }
+  },
+  "17889231767974845742": {
+    "test": {
+      "command": "jest",
+      "options": {
+        "cwd": "lambda-echo-query-params-e2e"
+      },
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "jest"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/coverage/lambda-echo-query-params-e2e"
+      ]
+    }
+  }
+}

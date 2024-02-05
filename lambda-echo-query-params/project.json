@@ -1,0 +1,56 @@
+{
+  "name": "lambda-echo-query-params",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "lambda-echo-query-params/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "platform": "node",
+        "outputPath": "dist/lambda-echo-query-params",
+        "format": ["cjs"],
+        "bundle": false,
+        "main": "lambda-echo-query-params/src/main.ts",
+        "tsConfig": "lambda-echo-query-params/tsconfig.app.json",
+        "assets": ["lambda-echo-query-params/src/assets"],
+        "generatePackageJson": true,
+        "esbuildOptions": {
+          "sourcemap": true,
+          "outExtension": {
+            ".js": ".js"
+          }
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "esbuildOptions": {
+            "sourcemap": false,
+            "outExtension": {
+              ".js": ".js"
+            }
+          }
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "lambda-echo-query-params:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "lambda-echo-query-params:build:development"
+        },
+        "production": {
+          "buildTarget": "lambda-echo-query-params:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}

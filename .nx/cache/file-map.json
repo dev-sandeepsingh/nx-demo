@@ -1,0 +1,204 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.1",
+  "deps": {
+    "axios": "^1.6.0",
+    "express": "~4.18.1",
+    "tslib": "^2.3.0",
+    "@nrwl/node": "^18.0.1",
+    "@nx/esbuild": "18.0.1",
+    "@nx/eslint": "18.0.1",
+    "@nx/eslint-plugin": "18.0.1",
+    "@nx/jest": "18.0.1",
+    "@nx/js": "18.0.1",
+    "@nx/node": "18.0.1",
+    "@swc-node/register": "~1.6.7",
+    "@swc/core": "~1.3.85",
+    "@swc/helpers": "~0.5.2",
+    "@types/express": "~4.17.13",
+    "@types/jest": "^29.4.0",
+    "@types/node": "~18.16.9",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "esbuild": "^0.19.2",
+    "eslint": "~8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "jest": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
+    "nx": "18.0.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.3.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "10837893979861669544"
+      },
+      {
+        "file": "dist/lambda-echo-query-params/package-lock.json",
+        "hash": "10379073338793312080"
+      },
+      {
+        "file": "package.json",
+        "hash": "1645250710906513682"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "dist/lambda-echo-query-params/main.js.map",
+        "hash": "12712889621983360594"
+      },
+      {
+        "file": "dist/lambda-echo-query-params/main.js",
+        "hash": "17511527162404680611"
+      },
+      {
+        "file": "dist/lambda-echo-query-params/lambda-echo-query-params/src/main.js.map",
+        "hash": "5054481489968968004"
+      },
+      {
+        "file": "dist/lambda-echo-query-params/package.json",
+        "hash": "4473072749014423831"
+      },
+      {
+        "file": "README.md",
+        "hash": "16092125813490307211"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12102659005420880880"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": ".nx/cache/jest.hash",
+        "hash": "6852148700711106621"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "16876009692289031665"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4120134399834753822"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "14645901493133832928"
+      },
+      {
+        "file": "dist/lambda-echo-query-params/lambda-echo-query-params/src/main.js",
+        "hash": "17680270101311576596"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "tmp/lambda-echo-query-params/main-with-require-overrides.js",
+        "hash": "7727903719090645753"
+      }
+    ],
+    "projectFileMap": {
+      "lambda-echo-query-params-e2e": [
+        {
+          "file": "lambda-echo-query-params-e2e/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "lambda-echo-query-params-e2e/jest.config.ts",
+          "hash": "14693014385244826229"
+        },
+        {
+          "file": "lambda-echo-query-params-e2e/project.json",
+          "hash": "8931232525361368000"
+        },
+        {
+          "file": "lambda-echo-query-params-e2e/src/lambda-echo-query-params/lambda-echo-query-params.spec.ts",
+          "hash": "4579662685003779048"
+        },
+        {
+          "file": "lambda-echo-query-params-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "lambda-echo-query-params-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "lambda-echo-query-params-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441"
+        },
+        {
+          "file": "lambda-echo-query-params-e2e/tsconfig.json",
+          "hash": "2346920493880922870"
+        },
+        {
+          "file": "lambda-echo-query-params-e2e/tsconfig.spec.json",
+          "hash": "14226830188665428950"
+        }
+      ],
+      "lambda-echo-query-params": [
+        {
+          "file": "lambda-echo-query-params/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "lambda-echo-query-params/jest.config.ts",
+          "hash": "11343404913977113936"
+        },
+        {
+          "file": "lambda-echo-query-params/project.json",
+          "hash": "10735620702946730398"
+        },
+        {
+          "file": "lambda-echo-query-params/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "lambda-echo-query-params/src/main.ts",
+          "hash": "12003555863464044675"
+        },
+        {
+          "file": "lambda-echo-query-params/tsconfig.app.json",
+          "hash": "1650782542565282680"
+        },
+        {
+          "file": "lambda-echo-query-params/tsconfig.json",
+          "hash": "9420862676426701392"
+        },
+        {
+          "file": "lambda-echo-query-params/tsconfig.spec.json",
+          "hash": "17313551537729802733"
+        }
+      ]
+    }
+  }
+}
